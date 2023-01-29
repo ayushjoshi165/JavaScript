@@ -49,12 +49,14 @@ output is hello tony and hello <your name here>
 
 remember about 0 it will coverse to zero as well .
  -----------------------------
- 
+ we created 2 files lib1 and lib2 and declare same name in both and then called it with the app.js to see which name it picks 
  To overcome that a libray override other library 
  
   var libraryName = "lib2"; // instead of this we did below code , this code prints lib2 
 
 window.libraryName = window.libraryName || "Lib 2"; // but this will print lib1 because it will first check that any global variable with the same name is already there or not
+
+-------------------------------------
 
 
 
