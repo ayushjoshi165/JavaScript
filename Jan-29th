@@ -1,0 +1,6 @@
+Coversion - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
+how coversion is helpful in java script :
+
+Boolean(undefined) => false
+Boolean(null) => false
+Boolean("") => false
