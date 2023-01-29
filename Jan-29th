@@ -8,8 +8,9 @@ Boolean("") => false
 
 var a;
 
-if(a || a === 0){
-
+if(a || a === 0)
+{
+// as 0 is coversed to false so we applied zero check seperately
 console.log("Something is there")
 
 }
@@ -17,5 +18,32 @@ console.log("Something is there")
 here we used coversion to our own advantage to check weather the value of a is undefined, null or "".
 if not then it will print otherwise not.
 
+# Default Values 
+
+function greet(name){
+console.log('Hello' + name);
+}
+
+greet();
+
+output is Hello undefined 
+
+0 || 1 => returns the first true
+null || "hello" => retuns hello
+
+
+so in the above code 
+
+function greet(name){
+
+name = name || '<your nme here>'
+console.log('Hello' + name);
+}
+
+greet('tony');
+greet();
+output is hello tony and hello <your name here>
+
+remember about 0 it will coverse to zero as well .
 
 
