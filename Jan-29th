@@ -89,4 +89,16 @@ person.address = new Object(); // we have created new object named adress inside
 
 person.address.street = "111 Main st. "; // adding prperty to the object
 
+person.address = new Object();
+
+person.address.street = "500 Race street";
+person.address.apartment = "Mosiac";
+person.address.city = "San jose";
+
+console.log(person["address"]["city"]);
+
+console.log(person);
+
+// preffered approach is using dot operator
+
 
