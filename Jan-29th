@@ -130,7 +130,39 @@ Object literal
 
 we can use object literal sytax to create and manuplulate object by creating that string on the fly when the function is called.
 
+var person = {
+  firstname: "ayush",
+  lastname: "j",
+  address: {
+    city: "San jose",
+    state: "San jose",
+  },
+};
 
+var person1 = {
+  firstname: "Ramn",
+  lastname: "j",
+  address: {
+    city: "San jose",
+    state: "San jose",
+  },
+};
 
+function greet(person) {
+  console.log("Hello " + person.firstname);
+}
+
+greet(person);
+greet(person1);
+
+greet({
+  firstname: "aj",
+  lastname: "joshi",
+}); // here we are passing string on the fly which will still work as expected
+
+output is 
+hello ayush
+hello ramn
+hello aj
 
 
