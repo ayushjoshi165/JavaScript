@@ -1,5 +1,5 @@
 Execution context , object provided by java script execution environment by default is this and window object
-
+Global execution context.
 
 Coversion - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 how coversion is helpful in java script :
