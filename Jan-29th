@@ -101,4 +101,21 @@ console.log(person);
 
 // preffered approach is using dot operator
 
+----------------------------------------------
 
+Objects and objects literals
+
+// pevious way of creating object is not ideal
+
+// there is a short hand for this and that is object literals thst is {} it is same a new Object();
+
+var person {}; // short hand to create an object
+
+// I can also initialize object like above and add values in it like below
+
+var person = {
+  firstname: "Ayush",
+  lastname: "Joshi",
+};
+
+console.log(person);
