@@ -116,6 +116,13 @@ var person {}; // short hand to create an object
 var person = {
   firstname: "Ayush",
   lastname: "Joshi",
+  address : {
+  city : 'San jose',
+  state : 'California'
+  }
 };
 
 console.log(person);
+
+
+
