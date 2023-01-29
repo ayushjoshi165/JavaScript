@@ -62,7 +62,7 @@ Objects and functions
 How objects resides in computer memory ?
 
 1. primitve "property"
-2. object  "property"
+2. object  "property" (as it may have another nested name vale pair) 
 3. function "method" --> functions attache with an object is called as method not function so an object has a properties and methods.
 
 
