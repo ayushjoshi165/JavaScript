@@ -1,3 +1,6 @@
+Execution context , object provided by java script execution environment by default is this and window object
+
+
 Coversion - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness
 how coversion is helpful in java script :
 
@@ -45,5 +48,8 @@ greet();
 output is hello tony and hello <your name here>
 
 remember about 0 it will coverse to zero as well .
+
+
+
 
 
