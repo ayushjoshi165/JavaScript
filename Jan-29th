@@ -4,3 +4,18 @@ how coversion is helpful in java script :
 Boolean(undefined) => false
 Boolean(null) => false
 Boolean("") => false
+
+
+var a;
+
+if(a || a === 0){
+
+console.log("Something is there")
+
+}
+
+here we used coversion to our own advantage to check weather the value of a is undefined, null or "".
+if not then it will print otherwise not.
+
+
+
