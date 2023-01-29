@@ -48,7 +48,13 @@ greet();
 output is hello tony and hello <your name here>
 
 remember about 0 it will coverse to zero as well .
+ -----------------------------
+ 
+ To overcome that a libray override other library 
+ 
+  var libraryName = "lib2"; // instead of this we did below code , this code prints lib2 
 
+window.libraryName = window.libraryName || "Lib 2"; // but this will print lib1 
 
 
 
