@@ -130,6 +130,8 @@ Object literal
 
 we can use object literal sytax to create and manuplulate object by creating that string on the fly when the function is called.
 
+when javascript engine sees curly braces inside the greet function at last he says you are creating object at the moment of execution.
+
 var person = {
   firstname: "ayush",
   lastname: "j",
