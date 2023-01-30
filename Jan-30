@@ -97,5 +97,53 @@ It gives us, without us having to create it, declare it or
 anything, it gives us this variable called this, which can be useful.
 
 And this will be pointing at a different object,
+------------------------------------------------------
 
+var c = {
+  name: "this is c object",
+  log: function () {
+    this.name = "updated c object";
+    console.log(this);
+
+    var setname = function (newname) {
+      this.name = newname;
+    };
+    setname("Updated again c object !"); // here we thought that we will see updated again output
+    // but we will see updated c object in output because even if this propery is inside
+    // out object function still while this inner function goes in execution context it will attach the
+    // name to global object which we can see in console so to fix this we will take a seperate variable inside
+    // and as it is object it is pass by refernce so the new variable will point to the same this
+    // therefore we will replace this inside the function with that varaible name
+    console.log(this);
+  },
+};
+console.log("test");
+c.log();
+console.log("---------------------------------------------");
+var d = {
+  name: "this is d object",
+  log: function () {
+    var self = this;
+    self.name = "updated d object";
+    console.log(self);
+
+    var setname = function (newname) {
+      self.name = newname;
+    };
+    setname("Updated again d object !"); // here we thought that we will see updated again output
+    // but we will see updated c object in output because even if this propery is inside
+    // out object function still while this inner function goes in execution context it will attach the
+    // name to global object which we can see in console so to fix this we will take a seperate variable inside
+    // and as it is object it is pass by refernce so the new variable will point to the same this
+    // therefore we will replace this inside the function with that varaible name
+    console.log(self);
+  },
+};
+
+d.log();
+
+// now this will reference to the current object instead appending the value in global object 
+// for the inner function 
+
+-------------------------------------------------------
 
