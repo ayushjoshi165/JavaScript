@@ -240,3 +240,12 @@ But not all object literal syntax is valid JSON.
 to convert JSON to javascript object literal  => JSON.parse('{"firstname": "ayush", "lastname" : "joshi"}')
 
 to generate JSON string from object literal =>  JSON.stringify(objectLiteral);
+
+--------------------------------------------------
+ first class functions.
+ 
+ in JavaScript, functions are what?
+
+Ans : Objects. which means you can attache a property and method to it.
+ 
+ 
