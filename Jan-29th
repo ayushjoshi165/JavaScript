@@ -294,4 +294,13 @@ var anonomousfunction = function(){
 
 then anonomousFunctin();
 
-                                          
+------------------------
+This concept of first class functions then, where you can pass functions around,
+
+give functions to other functions, use them like you do variables,
+
+introduces an entirely new class of programming,
+
+called functional programming.
+
+
