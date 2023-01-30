@@ -248,4 +248,23 @@ to generate JSON string from object literal =>  JSON.stringify(objectLiteral);
 
 Ans : Objects. which means you can attache a property and method to it.
  
+ functions in javascript has 2 parts  ==> 1. code
+                                          2. Name
+                                          
+ --------------------------------------------------
  
+ What is expression and statement
+ 
+ Hoisting :   During the creation phase of the execution context,
+
+the global execution context, in this case, it's put into memory.
+
+And so it's available ahead of time.
+
+greet();
+
+function greet(){
+console.log('hii');
+}
+                                          
+                                          
