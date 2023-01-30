@@ -185,3 +185,29 @@ state : "california"
 } 
 // here above i am addind the adress1 object using dot operator 
 
+----------------------------------------------
+var greet = "Hello ";
+var greet = "Hola! ";
+
+console.log(greet); // it will override
+
+// so we will use namespace as a container to it
+
+var english = {};
+var spanish = {};
+
+english.greet = "Hello";
+spanish.greet = "Hola!";
+
+console.log(english.greet);
+console.log(spanish.greet);
+
+// now we can not do this
+
+// english.greeting.greet = "Hello";
+// because greeting is undefined and we can not create propert on undefined as it is not even an obejct
+
+
+
+-------------------------------------------------
+
