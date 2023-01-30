@@ -225,3 +225,13 @@ so it's called JavaScript object notation.
 
 And it looks an awful lot like object literal syntax.
 
+
+when it says I parse JSON, it expects the properties to be wrapped in quotes.
+
+So JSON is technically a subset of the object literal syntax.
+
+Meaning that anything that is JSON valid
+
+is also valid JavaScript object literal syntax.
+
+But not all object literal syntax is valid JSON.
