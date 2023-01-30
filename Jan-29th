@@ -235,3 +235,8 @@ Meaning that anything that is JSON valid
 is also valid JavaScript object literal syntax.
 
 But not all object literal syntax is valid JSON.
+
+
+to convert JSON to javascript object literal  => JSON.parse('{"firstname": "ayush", "lastname" : "joshi"}')
+
+to generate JSON string from object literal =>  JSON.stringify(objectLiteral);
