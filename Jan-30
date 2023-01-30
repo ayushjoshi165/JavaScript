@@ -41,3 +41,23 @@ console.log(d);
 console.log(c);
 
 // here both values are same unlike the above example as they both are referencing to the same memory location 
+
+
+// lests pass it in function as objects
+
+function changeGreetings(obj) {
+  obj.greeting = "hola!";
+}
+changeGreetings(c);
+console.log(d);
+console.log(c);
+
+*********************// equal operator sets a new memory location (new address) ****************
+
+c = { greeting: "Howdy" };
+
+console.log(d);
+console.log(c);
+
+// output wont cahnge both the objects as it is set to different memory location
+
