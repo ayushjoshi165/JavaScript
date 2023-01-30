@@ -285,5 +285,13 @@ var anonomousfunction = function(){
 
 // here the upper half will be hoisted but lower from anonomous wont because it want get hoisted, and we can prove that by looking at execution context.
 
+// to fix this we need to put
+var anonomousfunction = function(){
+
+    console.log("Ananomous function");
+}
+// first 
+
+then anonomousFunctin();
 
                                           
