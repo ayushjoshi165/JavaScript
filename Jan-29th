@@ -209,5 +209,12 @@ console.log(spanish.greet);
 
 // to fix this i need to create a greeting object first
 
+It's just keeping us separate from any other code,
+
+any other objects sitting in the global namespace from the global object that
+
+someone else might have written or even that we've written and forgotten about.
+
+So, that's faking namespaces in JavaScript.
 -------------------------------------------------
 
