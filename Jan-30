@@ -87,5 +87,15 @@ as focusing on that code portion of that function object.
 
 What happens when I run the code in that code property?
 
+----------------------------------
+And we also know that in JavaScript engine every time
+
+an execution context is created, that is every time a function is Run.
+
+It gives us, without us having to create it, declare it or
+
+anything, it gives us this variable called this, which can be useful.
+
+And this will be pointing at a different object,
 
 
