@@ -168,3 +168,20 @@ hello ramn
 hello aj
 
 
+And notice that I can mix and match this syntax.
+
+I could take this variable Tony and add a new property using
+
+the DOT operator instead of an object literal
+
+and then use an object literal to define it as some sort of object.
+
+So I'm mixing and matching my methodologies.
+
+
+person.address1 = {
+city : "san jose",
+state : "california"
+} 
+// here above i am addind the adress1 object using dot operator 
+
