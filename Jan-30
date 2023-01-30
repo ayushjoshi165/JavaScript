@@ -63,3 +63,29 @@ console.log(c);
 
 //All primitive types are by value, and all objects are by reference.
 
+------------------------------------------------------------------------------
+
+Objects ,Functions and 'this'
+
+when a function is invoked a new execution context is created.
+
+Remember not to confuse this with the object that we've been discussing.
+
+The object sitting in memory that is a function has properties and methods.
+
+It has a name property and a code property where the code lives.
+
+But when that code is invoked and
+
+execution context is created and put on the execution stack.
+
+And that determines how that code is Run, is executed.
+
+So think of the execution context
+
+as focusing on that code portion of that function object.
+
+What happens when I run the code in that code property?
+
+
+
