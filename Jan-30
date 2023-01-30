@@ -1,1 +1,10 @@
 Javascript function can be passes to another functions and can be used as a variable.
+Example : 
+function log(a) {
+  a();
+}
+
+log(function passingfunction(){
+console.log("Passing function ran");
+});
+// output is Passing function ran
