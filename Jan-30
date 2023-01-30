@@ -61,3 +61,5 @@ console.log(c);
 
 // output wont cahnge both the objects as it is set to different memory location
 
+//All primitive types are by value, and all objects are by reference.
+
