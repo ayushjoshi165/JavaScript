@@ -218,3 +218,10 @@ someone else might have written or even that we've written and forgotten about.
 So, that's faking namespaces in JavaScript.
 -------------------------------------------------
 
+JSON - javascript object notation
+It's inspired by object literal syntax in JavaScript and
+
+so it's called JavaScript object notation.
+
+And it looks an awful lot like object literal syntax.
+
