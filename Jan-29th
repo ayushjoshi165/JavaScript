@@ -207,7 +207,7 @@ console.log(spanish.greet);
 // english.greeting.greet = "Hello";
 // because greeting is undefined and we can not create propert on undefined as it is not even an obejct
 
-
+// to fix this i need to create a greeting object first
 
 -------------------------------------------------
 
