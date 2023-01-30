@@ -14,3 +14,30 @@ console.log("Passing function ran");
 Pass by value - it works for primitives when a has value 3 and then b is passes as paramenter it will reference to the same value but a copy adresses are not same 
 
 Pass by reference - it works in objects and function (special type of objects in javascript) if we set the values of references eqaulr it will point to the exact asmae memory location.
+
+
+// by value
+
+var a = 3;
+
+var b;
+
+b = a; // creates a new spot in memory and copy the value
+a = 2; // now both variables are on their own
+console.log(a);
+console.log(b);
+
+// by referance (all objects (including functions ))
+
+var c = { greeting: "hi" };
+
+var d;
+
+d = c;
+
+c.greeting = "hello"; // mutated
+
+console.log(d);
+console.log(c);
+
+// here both values are same unlike the above example as they both are referencing to the same memory location 
