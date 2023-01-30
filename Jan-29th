@@ -266,5 +266,24 @@ greet();
 function greet(){
 console.log('hii');
 }
-                                          
+-----------------------------
+
+greety();
+
+function greety() {
+ 
+  console.log("hii");
+  
+}
+
+anonomousfunction();
+
+var anonomousfunction = function(){
+
+    console.log("Ananomous function");
+}
+
+// here the upper half will be hoisted but lower from anonomous wont because it want get hoisted, and we can prove that by looking at execution context.
+
+
                                           
