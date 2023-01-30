@@ -8,3 +8,9 @@ log(function passingfunction(){
 console.log("Passing function ran");
 });
 // output is Passing function ran
+
+-------------------------------------------------
+
+Pass by value - it works for primitives when a has value 3 and then b is passes as paramenter it will reference to the same value but a copy adresses are not same 
+
+Pass by reference - it works in objects and function (special type of objects in javascript) if we set the values of references eqaulr it will point to the exact asmae memory location.
