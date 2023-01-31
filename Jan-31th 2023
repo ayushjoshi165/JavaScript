@@ -15,5 +15,31 @@ lastperson
 Immidiately Invoked Function Expressions (IIFE)s
 
 
+// function statement
+function greet(name) {
+  console.log("Hello " + name);
+}
+
+greet("John");
+
+// using a function expression
+
+var greeting = function (name) {
+  console.log("Hello " + name);
+};
+greeting("josh");
+
+// using a iife
+
+var greetingIife = (function (name) {
+  return "Hello " + name;
+})("pappu");
+
+console.log(greetingIife);
+
+// but if is say 
+greetingIife();
+// it will through an error because we have invoke the function object already and passed a value 
+// so it returns a string and hence greetingIife() will say string is not a function error
 
 
