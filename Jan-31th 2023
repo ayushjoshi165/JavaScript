@@ -42,4 +42,40 @@ greetingIife();
 // it will through an error because we have invoke the function object already and passed a value 
 // so it returns a string and hence greetingIife() will say string is not a function error
 
+---------------------
+
+i can write 
+
+3;
+
+or 
+
+{
+name : 'ayush'
+}
+and run it , this wont give any error 
+
+but when i write a function 
+
+function(name){
+
+return 'Hello';
+
+}
+
+
+Cuz the syntax parser saw the word function as the beginning of a new line or
+
+segment of code, it was after this semi-colon here.
+
+So it expects that this is a function statement, it wants it to have a name.
+
+It can't be anonymous.
+
+So this syntax is a problem.
+
+If I just put function, this isn't a function expression.
+
+It's a function statement.
+
 
