@@ -113,3 +113,9 @@ return 'Hello';
 
 // now we tricked the syntax parser
 // and called the function as well 
+
+//Everyone agrees to use parentheses, but you could invoke it
+
+inside the parentheses or you could invoke it outside the parentheses.
+
+It doesn't really matter, both work the same way.
