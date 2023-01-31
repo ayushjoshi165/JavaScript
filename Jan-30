@@ -199,6 +199,12 @@ how it's called, and it also sets up another special keyword, called arguments.
 
 
 -----------------------------------
+function greet(firstname ,lastname , language){
+
+language = language || 'en'; // how we set a default value
+}
+
+
 
 a special keyword that this JavaScript engine has set up for us.
 
@@ -232,6 +238,11 @@ So, that's just good to know about.
 
 But again, right now, you'll see a lot of usage of arguments.
 ----------------------------------------------------------------------------
-I n javascript there is no function overloading because functions are object 
+In javascript there is no function overloading because functions are object 
 thats ok because having first class function introduces many other options
+
+their are other patterns to deal with this in javascript.
+
+-----------------------------------------------------------------------
+
 
