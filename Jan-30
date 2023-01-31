@@ -146,4 +146,26 @@ d.log();
 // for the inner function 
 
 -------------------------------------------------------
+So we've seen the this key word.
+
+It's the global variable, or
+
+the global object, when just invoking a function like this.
+
+And when the function is a method of an object,
+
+the this keyword points to the object.
+
+However, any internal functions have a problem.
+
+So we can use this concept of setting a variable equal to this,
+
+and then just carrying that with us the rest of the way to
+
+make sure that we don't run across any unintentional errors,
+
+or somehow throw things onto the global object that we didn't mean to.
+
+---------------------------------------------------
+
 
