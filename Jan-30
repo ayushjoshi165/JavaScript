@@ -218,3 +218,17 @@ containing a list of all the values
 
 of the parameters that I've passed.
 
+----------------------------------------------------
+Spread operator :
+, ..., means take everything else, and wrap it up into an array of this name.
+
+This isn't completely available yet either, but once it becomes available,
+
+then it will be the preferred approach to dealing with various
+
+sequences and various numbers of arguments of parameters.
+
+So, that's just good to know about.
+
+But again, right now, you'll see a lot of usage of arguments.
+
