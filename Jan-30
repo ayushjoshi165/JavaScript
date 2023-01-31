@@ -198,3 +198,23 @@ this, which will point to different things depending on where the function lives
 how it's called, and it also sets up another special keyword, called arguments.
 
 
+-----------------------------------
+
+a special keyword that this JavaScript engine has set up for us.
+
+Just like the keyword, this, we have a new keyword called arguments.
+
+Notice I didn't declare it anywhere.
+
+It's just automatically available to me.
+
+The execution context made sure that I have this set up.
+
+So what do I get when I see arguments?
+
+Let's look. Well notice, that it's
+
+containing a list of all the values
+
+of the parameters that I've passed.
+
