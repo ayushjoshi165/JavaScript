@@ -122,4 +122,30 @@ It doesn't really matter, both work the same way.
 
 
 --------------------------------------------------------------------------
+App.js-
+
+(function greeting(global, name){
+var greeting  = "Hello";
+global.greeting = "Hello"; // now it will cahnge the value of greeting variable attached globally
+console.log("Welcome" + name);
+
+}
+)("Ayush");
+
+greet.js-
+
+var greeting  = "Hola";
+
+index.html---
+
+greet.js
+app.js
+
+here function will print Hello because for the varaible in function there will be a different execution context that the global one 
+the varaivle in greet.js will get attached to global object instead of confusing with the greeting in app.js
+
+// If we want to use the global greeting we can pass it in the function and use it by using window object as ==> window.greeting , this will have access to global object even inside the IIFE function as 
+// it is performing on global execution context
+
+
 
