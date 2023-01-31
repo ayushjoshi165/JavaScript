@@ -90,3 +90,24 @@ It always is an expression, something that returns a value.
 
 So since the JavaScript engine knows that anything inside a parentheses must
 
+
+(
+function(name){
+
+return 'Hello';
+
+});
+
+// now the aboce code stays there but wont give error
+
+// to run it use prantehsis like
+
+(
+function(name){
+
+return 'Hello';
+
+}());
+
+// now we tricked the syntax parser
+// and called the function as well 
