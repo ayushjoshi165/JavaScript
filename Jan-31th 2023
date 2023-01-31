@@ -109,5 +109,7 @@ return 'Hello';
 
 }());
 
+// above is the example of classic IIFE 
+
 // now we tricked the syntax parser
 // and called the function as well 
