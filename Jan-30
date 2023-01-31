@@ -249,5 +249,15 @@ Syntax Parsers
 
 Always put your own semicolon in javascript otherwise javascript engine will do it for you and therefore it is a dangerous aside
 
+lets see an example : 
+
+function getperson()
+{
+return {
+firstname : 'Tony'
+}
+}
+console.log(getperson()); // outputs undefined why ?
+
 
 
