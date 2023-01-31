@@ -168,4 +168,17 @@ or somehow throw things onto the global object that we didn't mean to.
 
 ---------------------------------------------------
 
+Arrays in java script are little bit different because javascript is a dynamic typed language and unlike other languages java script array can contain different types of values like var arr = [
+1,
+"Ayush",
+{
+name : "kush",
+address : "500 race street"
+},
 
+function(name){
+console.log("Welcome"+ name)
+}, 
+True]
+
+also we can execute the contained function like  = > arr[3](arr[2].name)  outputs = > welcome Kush
