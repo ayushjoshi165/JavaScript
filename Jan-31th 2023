@@ -78,4 +78,15 @@ If I just put function, this isn't a function expression.
 
 It's a function statement.
 
+-----------
+
+so how fix it ===> wrap the function inside a parantheris 
+
+You never put a statement inside
+
+parentheses, like if something.
+
+It always is an expression, something that returns a value.
+
+So since the JavaScript engine knows that anything inside a parentheses must
 
