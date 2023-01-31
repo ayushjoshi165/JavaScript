@@ -244,5 +244,10 @@ thats ok because having first class function introduces many other options
 their are other patterns to deal with this in javascript.
 
 -----------------------------------------------------------------------
+Syntax Parsers
+------------------------------------------------------
+
+Always put your own semicolon in javascript otherwise javascript engine will do it for you and therefore it is a dangerous aside
+
 
 
