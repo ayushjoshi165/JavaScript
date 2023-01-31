@@ -231,4 +231,7 @@ sequences and various numbers of arguments of parameters.
 So, that's just good to know about.
 
 But again, right now, you'll see a lot of usage of arguments.
+----------------------------------------------------------------------------
+I n javascript there is no function overloading because functions are object 
+thats ok because having first class function introduces many other options
 
