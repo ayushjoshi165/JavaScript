@@ -253,11 +253,32 @@ lets see an example :
 
 function getperson()
 {
-return {
+return
+{
 firstname : 'Tony'
 }
 }
 console.log(getperson()); // outputs undefined why ?
+because of automatic semicolumn insertion 
 
+Because of automatic semicolon insertion.
+
+The JavaScript engine, if it sees a carriage return after the keyword return,
+
+it will automatically insert a semicolon.
+
+So it essentially ran this code.
+
+Even though you wrote something else, the syntax parser chose to change your code.
+
+And so by putting this object literal syntax on a new line,
+
+it caused the JavaScript engine to decide to put in a semicolon, so
+
+it simply returned.
+
+It quit out of the function.
+
+And all that you got was an undefined result.
 
 
