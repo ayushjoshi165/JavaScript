@@ -182,3 +182,19 @@ console.log("Welcome"+ name)
 True]
 
 also we can execute the contained function like  = > arr[3](arr[2].name)  outputs = > welcome Kush
+
+
+------------------------------------------
+As we've seen many times before, when you execute a function,
+
+a new execution context is created, and the JavaScript engine
+
+sets up some things for us like a variable environment to hold our variables,
+
+an outer environment reference for the scope chain, the special keyword,
+
+this, which will point to different things depending on where the function lives or
+
+how it's called, and it also sets up another special keyword, called arguments.
+
+
