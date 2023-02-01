@@ -1,1 +1,20 @@
+Closures : Function returns another function 
 
+
+Greet is gone, the execution context is gone.
+
+But what's in memory for that execution context isn't and the JavaScript
+
+engine makes sure that my function can still go down the scope chain and find it.
+
+Even though it's not even on the execution stack anymore.
+
+And this way we say that the execution context has closed in its outer variables,
+
+the variables that it would normally have reference to anyway.
+
+Even though those execution contexts are gone.
+
+And so this phenomenon, of it closing in all the variables
+
+that it's supposed to have access to, is called a closure.
