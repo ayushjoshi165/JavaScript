@@ -1,0 +1,9 @@
+Lets see how we can create pattern in javascript using closure which we would not be able to do withiut closures
+
+
+
+When function A finishes running, it calls function B for me.
+
+It calls back.
+
+Thus the name, the callback function.
