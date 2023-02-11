@@ -51,3 +51,29 @@ console.log(person.printfullName.apply(person2));
 this will print Kush John as we borrowed the function from person object and applied for person 2.
 
 // here we are borrowing function from person object to apply to person 2 object .
+
+--------------------------------------
+
+
+Function currying: 
+
+creating a copy of a function but with some preset parameters.
+
+Their cert turns out to be really useful in mathematical situations,
+
+so if you're building a library that has to do a lot of mathematical calculations,
+
+you can have some fundamental functions that you can then build on with some other
+
+default parameters.
+
+A really good useful usage for bind.
+
+function multiply(a ,b) {
+return a*b;
+}
+
+var multiplyByTwo = multiply.bind(this, 2);
+
+multiplyByTwo(3);
+// above print 6 as we set the first value by 2 using bind;
