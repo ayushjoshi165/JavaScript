@@ -16,3 +16,11 @@ var printNameAfterBind = printName.bind(person);
 printNameAfterBind();
 
 // above is the other way to do it.
+
+------------------------
+
+call
+
+Unlike bind, which creates a copy of the function, call actually executes it.
+
+And then just decides what the this variable should be and
