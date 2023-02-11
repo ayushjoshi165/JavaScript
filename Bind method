@@ -1,0 +1,18 @@
+var person = {
+  firstname: "ayush",
+  lastname: "joshi",
+  fullname: function () {
+    console.log("Print fuull name" + this.firstname + " " + this.lastname);
+  },
+};
+
+var printName = function () {
+  console.log(this.firstname + "  " + this.lastname);
+}.bind(person);
+// above we binded this reference to person object otherwise the execution context of this was global.
+printName(); // one way to do that
+
+var printNameAfterBind = printName.bind(person);
+printNameAfterBind();
+
+// above is the other way to do it.
