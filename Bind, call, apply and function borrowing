@@ -35,3 +35,19 @@ apply method wants an array
 of parameters, rather than just the normal list.
 
 And that's the only difference between call and apply.
+
+-------------------------
+
+function borrowing 
+
+var person2 = {
+ar person = {
+  firstname: "kush",
+  lastname: "John"
+}
+console.log(person.printfullName.apply(person2));
+
+
+this will print Kush John as we borrowed the function from person object and applied for person 2.
+
+// here we are borrowing function from person object to apply to person 2 object .
