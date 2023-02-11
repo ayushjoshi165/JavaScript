@@ -24,3 +24,14 @@ call
 Unlike bind, which creates a copy of the function, call actually executes it.
 
 And then just decides what the this variable should be and
+
+
+-------------
+
+Apply method 
+
+apply method wants an array
+
+of parameters, rather than just the normal list.
+
+And that's the only difference between call and apply.
