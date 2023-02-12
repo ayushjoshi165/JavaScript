@@ -20,3 +20,15 @@ The property is simply a reference to another object, we'll call it proto.
 It's an object that stands on its own, we could use it by itself if we wanted to.
 
 But the object property that we'll call proto, that's it's prototype.
+
+-----------------------------------------------
+In javascript there is a concept called prototype chain :
+
+every object can have a hiden propert prop{} and when we call a property using dot operator javascript engine looks for it in the object and if it doesnt find it it will got down the prtotype chain and if finds it returns it.
+
+Also if the object is refernaced by another object then that object can also reference to the prop of object it is pointing to 
+
+It is different from scope chain , we saw an example where we are using __prop__ to see and understand it , but never try to do this because it will 
+affect the performance of the engine.
+
+---------------------------
