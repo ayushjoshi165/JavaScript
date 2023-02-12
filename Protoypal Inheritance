@@ -1,0 +1,22 @@
+The general idea of inheritance
+
+is implemented differently in different languages.
+
+But for our purposes we only need to understand the most basic concept.
+
+That one object gets access to the properties and methods of another object.
+-----------------------------------------------
+
+We also know that the JavaScript engine adds hidden properties and methods to
+
+things or properties and methods that we normally don't interact with directly.
+
+All objects In JavaScript, and that includes functions.
+
+All objects have a prototype property.
+
+The property is simply a reference to another object, we'll call it proto.
+
+It's an object that stands on its own, we could use it by itself if we wanted to.
+
+But the object property that we'll call proto, that's it's prototype.
