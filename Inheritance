@@ -1,0 +1,7 @@
+The general idea of inheritance
+
+is implemented differently in different languages.
+
+But for our purposes we only need to understand the most basic concept.
+
+That one object gets access to the properties and methods of another object.
