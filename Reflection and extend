@@ -1,1 +1,20 @@
+Reflection is feature of javascript object to see itself and extend method of underscore.js is using that feature to extent the properties of other object onto the object we want
 
+var person = {
+  firstname: "ayush",
+  lastname: "joshi",
+  fullname: function () {
+    console.log("Print fuull name" + this.firstname + " " + this.lastname);
+  },
+};
+
+var person1 = {
+  firstname: "kush",
+  lastname: "joshi",
+};
+
+_.extend(person, person1); // extend is using reflection feature of objects and adding person1 or argumetns from index 1 onwards onto person 
+// object and then we are are printing it below 
+for (var prop in person) {
+  console.log(prop + ": " + person[prop]);
+}
