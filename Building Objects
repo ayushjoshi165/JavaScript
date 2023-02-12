@@ -4,3 +4,8 @@ We say by using object literal
 we call a function that's used specifically to construct an object
 
 a function constructor.
+
+
+New operator creates a new empty objct and then we can add on top of it using this .
+
+
