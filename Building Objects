@@ -1,2 +1,6 @@
 We say by using object literal 
 2. New keywords
+
+we call a function that's used specifically to construct an object
+
+a function constructor.
