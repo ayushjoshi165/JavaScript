@@ -1,0 +1,33 @@
+In javascript we have function constructors 
+
+ex : var a = new String() <== here we created a function constructor its not premitive 
+now if we use prototype proprty
+
+String here is not a primitve if has its own properties and methods 
+try to type String in console and hit enter you will see 
+
+String {'Ayuh'}
+0
+: 
+"A"
+1
+: 
+"y"
+2
+: 
+"u"
+3
+: 
+"h"
+length
+: 
+4
+[[Prototype]]
+: 
+String
+[[PrimitiveValue]]
+: 
+"Ayuh"
+-----
+so the above is not a primitive its a Function constructor and gets its various properties from JS engine
+
