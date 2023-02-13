@@ -9,3 +9,18 @@ a function constructor. ==> a normalt function which is used to create an obejct
 New operator creates a new empty objct and then we can add on top of it using this .
 
 
+function person() {
+  console.log(this);
+  this.firstname = "ayush";
+  this.lastname = "joshi";
+
+  console.log("properties are now added to this " + this.firstname);
+}
+
+var person1 = new person();
+
+// here new keyword retrun an empty object
+console.log(person1);
+
+
+
