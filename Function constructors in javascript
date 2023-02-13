@@ -31,3 +31,13 @@ String
 -----
 so the above is not a primitive its a Function constructor and gets its various properties from JS engine
 
+String.prototype.addTheNumber = function (a, b) {
+  return a + b;
+};
+
+// now every string gets wrapped as an object and will get method addTheNumber
+
+console.log("Ayush".addTheNumber(4, 6));
+
+-------------------
+
