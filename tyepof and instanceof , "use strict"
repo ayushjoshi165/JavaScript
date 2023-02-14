@@ -13,3 +13,8 @@ typeof : to determin the type ex type of [variable name]
 
 typeof null is object whic his wiered 
 
+
+"use strict" is an extra feature of javascript which we can keep on top of the file and also even on the first line inside a function (to apply only to function)
+
+which tells the javascript to work in more strictier way like we saw example of person object and another persom onject
+
