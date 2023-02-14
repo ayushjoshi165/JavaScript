@@ -1,0 +1,11 @@
+We can have some code that checks to see if the engine has a feature, and
+
+if it doesn't we write some code that
+
+does the same thing that that new feature would do in the newer browsers.
+
+So I'm filling in the gaps where an older engine might not have
+
+some features that the newer features do.
+
+So let's look at Object.create.
