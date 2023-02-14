@@ -13,3 +13,23 @@ And then you simply override, hide properties and
 methods on those created objects by setting the values of those properties and
 
 methods on the new objects themselves.
+
+-----------------
+
+var person = {
+  firstname: "Default",
+
+  lastnaem: "Default",
+
+  greet: function () {
+    return this.firstname + " " + this.lastnaem;
+  },
+};
+
+var ayush = Object.create(person);
+ayush.firstname = "ayush";
+ayush.lastnaem = "joshi";
+console.log(ayush);
+
+
+above we created the object and set the properties to overwride the default values otherwise it will only output the default one
