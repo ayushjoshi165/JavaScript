@@ -1,0 +1,9 @@
+Classes in javaScript are just a Syntactic sugar
+
+we are doint the same thing under the hood which we were doing by using prototype an Object.create
+
+
+for classe to do so we use extends keyword
+
+classes are also object in javascript unlike other programming languages 
+and we use object to ctreate a new object here.
