@@ -8,4 +8,11 @@ So I'm filling in the gaps where an older engine might not have
 
 some features that the newer features do.
 
-So let's look at Object.create.
+we saw an example where we checkked (!Object.create) then we added that functionality to it 
+
+
+Function F(){}
+F.prototype = o;
+return new F();
+
+------------------------------
