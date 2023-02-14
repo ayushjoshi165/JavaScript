@@ -1,0 +1,14 @@
+Dont use for in for javascript Array
+
+Array.prototype.myCustomFeature;
+
+var arr = ['1','orange', 'lemon']
+
+now if i use 
+
+for(var prop in arr){
+console.log(prop + " :" +arr[prop] );
+// it will console the added feature froperty as well 
+}
+
+// so use normat for loop instead which will only give the actuall array content
