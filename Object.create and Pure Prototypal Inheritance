@@ -1,0 +1,15 @@
+Object.create and Pure Prototypal Inheritance : 
+
+You simply make objects and
+
+then create new objects from them pointing to other objects as their prototype.
+
+If you want to define a new object,
+
+you create a new object that becomes the basis for all others.
+
+And then you simply override, hide properties and
+
+methods on those created objects by setting the values of those properties and
+
+methods on the new objects themselves.
