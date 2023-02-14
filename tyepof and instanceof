@@ -1,0 +1,11 @@
+This other keyword called instanceof, though, what it does,
+
+it tells me if any object is down the prototype chain.
+
+If anywhere down that whole prototype chain of going proto, to proto,
+
+to proto, I find this type of object.
+
+If I do then this first parameter is an instance of that one.
+
+typeof : to determin the type ex type of [variable name]
