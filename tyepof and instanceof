@@ -9,3 +9,7 @@ to proto, I find this type of object.
 If I do then this first parameter is an instance of that one.
 
 typeof : to determin the type ex type of [variable name]
+
+
+typeof null is object whic his wiered 
+
