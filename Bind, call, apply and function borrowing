@@ -40,11 +40,10 @@ And that's the only difference between call and apply.
 
 function borrowing 
 
-var person2 = {
-ar person = {
+var person = {
   firstname: "kush",
   lastname: "John"
-}
+
 console.log(person.fullName.apply(person2));
 
 
