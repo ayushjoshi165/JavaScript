@@ -11,6 +11,8 @@ methods on the prototype because they only need one copy to be used.
 
 function person(firstname, lastname) {
   console.log(this);
+  // this is an empty object righ now and we will feed the values after this line 
+  
   this.firstname = firstname;
   this.lastname = lastname;
 
