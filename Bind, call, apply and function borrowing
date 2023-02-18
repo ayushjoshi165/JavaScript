@@ -45,7 +45,7 @@ ar person = {
   firstname: "kush",
   lastname: "John"
 }
-console.log(person.printfullName.apply(person2));
+console.log(person.fullName.apply(person2));
 
 
 this will print Kush John as we borrowed the function from person object and applied for person 2.
