@@ -21,6 +21,11 @@ var person1 = new person();
 
 // here new keyword retrun an empty object
 console.log(person1);
+-------------------------------------------------------
 
+Difference between object created by string literal vs Constructor function in JavaScript
+
+Objects created using object literal are singletons, this means when a change is made to the object, it affects the object entire the script.
+Whereas if an object is created using constructor function and a change is made to it, that change won't affect the object throughout the script.
 
 
